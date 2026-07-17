@@ -43,7 +43,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;padding:16px 0;background:
 html.light header{background:linear-gradient(180deg,var(--ink) 50%,transparent 100%);}
 header.header-on-hero{background:linear-gradient(180deg,rgba(11,12,14,.8) 0%,transparent 100%);}
 html.light header.header-on-hero{background:linear-gradient(180deg,rgba(11,12,14,.8) 0%,transparent 100%);}
-header.header-on-hero .logo, header.header-on-hero .logo small, header.header-on-hero .nav-links a, header.header-on-hero .theme-toggle, header.header-on-hero .nav-toggle{color:#F1EFEA;border-color:rgba(241,239,234,.3);}
+header.header-on-hero .logo, header.header-on-hero .logo small, header.header-on-hero .nav-links a, header.header-on-hero .theme-toggle, header.header-on-hero .nav-toggle, header.header-on-hero .nav-cta .btn-outline{color:#F1EFEA;border-color:rgba(241,239,234,.3);}
 .nav-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;}
 .nav-right{display:flex;align-items:center;gap:34px;flex-shrink:0;}
 .logo{font-family:var(--display);font-size:24px;letter-spacing:.02em;line-height:1;}
@@ -55,7 +55,7 @@ header.header-on-hero .logo, header.header-on-hero .logo small, header.header-on
 .nav-cta{display:flex;align-items:center;gap:12px;}
 .theme-toggle{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;background:none;color:var(--text);font-size:15px;flex-shrink:0;}
 .nav-toggle{display:none;width:38px;height:38px;border:1px solid var(--line);border-radius:50%;align-items:center;justify-content:center;cursor:pointer;background:none;color:var(--text);font-size:15px;flex-shrink:0;}
-@media(max-width:860px){.nav-toggle{display:flex;}.nav-cta .btn-solid{padding:12px 16px;font-size:11px;}.nav-whatsapp{display:none;}.nav-book{display:none;}}
+@media(max-width:860px){.nav-toggle{display:flex;}.nav-cta .btn{padding:12px 16px;font-size:11px;}.nav-book{display:none;}}
 
 .mobile-nav{position:fixed;inset:0;z-index:60;background:var(--ink);display:none;flex-direction:column;padding:100px 28px 40px;}
 .mobile-nav.open{display:flex;}
